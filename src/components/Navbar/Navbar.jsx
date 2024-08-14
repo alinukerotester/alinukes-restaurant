@@ -29,11 +29,11 @@ const Navbar = () => (
     </ul>
     <div className="app__navbar-login">
       <a href="#login" className="p__opensans">
-        Log In / Register
+        {/* Log In / Register */} Bagă șparleaua
       </a>
       <div />
       <a href="/" className="p__opensans">
-        Book Table
+        {/* Book Table */} Te pui la masă sau la măta
       </a>
     </div>
     <div className="app__navbar-smallscreen">
