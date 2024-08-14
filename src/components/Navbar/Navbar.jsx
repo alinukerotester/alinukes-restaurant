@@ -33,7 +33,7 @@ const Navbar = () => (
       </a>
       <div />
       <a href="/" className="p__opensans">
-        {/* Book Table */} Te pui la masă sau la măta
+        {/* Book Table */} Masă Măsea Măsa
       </a>
     </div>
     <div className="app__navbar-smallscreen">
