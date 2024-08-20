@@ -46,12 +46,11 @@
 .app__specialMenu_menu_items {
   display: flex;
   flex-direction: column;
-
   margin: 2rem 0;
   width: 100%;
 }
 
-@media screen and (min-width: 2000px) {
+@media screen and (max-width: 2000px) {
   .app__specialMenu-menu_img {
     width: 650px;
   }
