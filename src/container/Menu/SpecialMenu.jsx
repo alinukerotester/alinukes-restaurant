@@ -17,7 +17,7 @@ const SpecialMenu = () => (
           {data.wines.map((wine, index) => (
             <MenuItem
               key={wine.title + index}
-              title={wine.price}
+              title={wine.title}
               price={wine.price}
               tags={wine.tags}
             />
