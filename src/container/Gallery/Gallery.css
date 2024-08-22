@@ -76,7 +76,6 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding: 0 1rem;
   position: absolute;
   bottom: 5%;
@@ -86,7 +85,7 @@
   color: var(--color-golden);
   font-size: 2rem;
   cursor: pointer;
-  background: var(--color-black);
+  background-color: var(--color-black);
   border-radius: 5px;
 }
 
@@ -106,7 +105,7 @@
 
   .app__gallery-images_card {
     min-width: 400px;
-    height: 547px;
+    height: 550px;
   }
 }
 

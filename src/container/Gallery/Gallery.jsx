@@ -50,7 +50,7 @@ const Gallery = () => {
               key={`gallery_image-${index + 1}`}
             >
               <img src={image} alt="gallerry" />
-              <BsInstagram className="gallerry__image-icon" />
+              <BsInstagram className="gallery__image-icon" />
             </div>
           ))}
         </div>
