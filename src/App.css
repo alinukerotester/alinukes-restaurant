@@ -101,11 +101,6 @@
 
 .spoon__img {
   width: 45px;
-  transform: rotate(180deg);
-}
-
-.spoon__img-reverse {
-  width: 45px;
   transform: rotate(0deg);
 }
 
