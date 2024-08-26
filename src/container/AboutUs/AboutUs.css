@@ -60,7 +60,7 @@
   align-items: center;
 }
 
-.spoon__img {
+.app__aboutus .spoon__img {
   width: 45px;
   transform: rotate(180deg);
 }
