@@ -101,7 +101,6 @@
 
 .spoon__img {
   width: 45px;
-  transform: rotate(0deg);
 }
 
 @media screen and (min-width: 2000px) {
@@ -121,8 +120,7 @@
     line-height: 210px;
   }
 
-  .spoon__img,
-  .spoon__img-reverse {
+  .spoon__img {
     width: 80px;
   }
 }
@@ -163,23 +161,6 @@
   .p__opensans {
     font-size: 14px;
   }
-
-  .spoon__img,
-  .spoon__img-reverse {
-    width: 35px;
-  }
-
-  .spoon__img {
-    transform: rotate(
-      170deg
-    ); /* Ajustează unghiul de rotație pentru ecrane mici */
-  }
-
-  .spoon__img-reverse {
-    transform: rotate(
-      -10deg
-    ); /* Ajustează unghiul de rotație invers pentru ecrane mici */
-  }
 }
 
 @media screen and (max-width: 450px) {
@@ -194,22 +175,5 @@
   .headtext__cormorant {
     font-size: 45px;
     line-height: 70px;
-  }
-
-  .spoon__img,
-  .spoon__img-reverse {
-    width: 30px; /* Reducerea suplimentară a dimensiunii pentru ecrane foarte mici */
-  }
-
-  .spoon__img {
-    transform: rotate(
-      180deg
-    ); /* Ajustare suplimentară pentru ecrane foarte mici */
-  }
-
-  .spoon__img-reverse {
-    transform: rotate(
-      0deg
-    ); /* Ajustare suplimentară pentru ecrane foarte mici */
   }
 }
